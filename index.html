@@ -1,150 +1,137 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Snapshot by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-<head>
-<title>SC Liu's personal website!</title>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content>
-<meta name="author" content="kevinbird61">
-<link rel="icon" href="image/icon/tools-and-utensils.png">
-<!-- JQuery -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- Font-Awesome 4.7.0 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-<!-- Materialize 0.98.2 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-<script src="js/index.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en">
-<link href="https://fonts.googleapis.com/css?family=Fresca|Anton|Patua+One" rel="stylesheet">
-<link rel="stylesheet" href="css/main.css">
-</head>
-<body class="white">
-    <!-- navigation bar -->
-    <nav class="green">
-        <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo" onclick="sideNav(1)">Liu's Nest</a>
-        <a href="#" data-activates="slide-out" class="personal" style="display: none;"><i class="material-icons">menu</i></a>
-        <a href="#" data-activates="mobile-fit" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <!-- Tags of the content -->
-            </ul>
-            <!-- For mobile -->
-            <ul class="side-nav" id="mobile-fit">
-                <!-- Origin content from tags -->
-            </ul>
-        </div>
-    </nav>
-    <!-- SideNav -->
-    <ul id="slide-out" class="side-nav">
-    <li>
-        <div class="user-view">
-            <div class="background">
-                <img class="card-image" src="image/person/programmer.jpg">
-            </div>
-            <a href="#!user"><img class="circle" src="image/person/me.jpg"></a>
-            <a href="#!name"><span class="white-text name">瞿旭民(Kevin CYU)</span></a>
-            <a href="#!email"><span class="white-text email">kevinbird61@gmail.com</span></a>
-        </div>
-    </li>
-        <li><a class="subheader">Contact with me</a></li>
-        <li><a class="waves-effect" href="https://github.com/kevinbird61"><i class="fa fa-github fa-2x" aria-hidden="true"></i>My work on Github</a></li>
-        <li><a class="waves-effect" href="https://www.facebook.com/kevinbird61"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>My Facebook Account</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Also a youtuber!</a></li>
-        <li><a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCr0ZVY1L7SXZcF34smVJQ-g">
-                <span class="fa fa-youtube"></span> My Channel</a></li>
-    </ul>
-<br>
-<!-- Tabs -->
-<div class="row">
-    <div class="col s12">
-        <ul class="tabs white">
-            <li class="tab col s4"><a href="index.html" target="_self" class="font-patua">profile</a></li>
-            <li class="tab col s4"><a href="tech.html" target="_self" class="font-patua">tech</a></li>
-            <li class="tab col s4"><a href="work.html" target="_self" class="font-patua">work</a></li>
-        </ul>
-    </div>
-</div>
-<!-- Content Here (Using card template)
-<div class="container">
-    <div class="card hoverable small">
-        <div class="card-image">
-            <img src="image/ncku.jpg">
-            <span class="card-title">Card Title</span>
-        </div>
-        <div class="card-content">
-            <p> Oh Man </p>
-        </div>
-        <div class="card-action">
-            <a href="#">Profile</a>
-        </div>
-    </div>
-</div> -->
-<!-- Content Here (Using Parallax) -->
-<div class="parallax-container">
-    <div class="parallax"><img src="image/profile/hogwarts.jpg"></div>
-</div>
-    <div class="section light-grey">
-        <div class="row container">
-            <h2 class="header"><i class="fa fa-caret-up" aria-hidden="true"></i> About me</h2>
-            <h5 class="grey-text text-darken-3 lighten-3">I'm a graduating student from Nation Cheng Kung University, which is major in Computer Science.</h5>
-            <h5 class="grey-text text-darken-3 lighten-3">"Play hard and work hard!" always be my motto of life.</h5>
-        </div>
-    </div>
-<div class="parallax-container">
-    <div class="parallax"><img src="image/profile/ncku.jpg"></div>
-</div>
-    <div class="section light-grey">
-        <div class="row container">
-            <h2 class="header"><i class="fa fa-caret-up" aria-hidden="true"></i> NCKU (Nation Cheng Kung University)</h2>
-            <h5 class="grey-text text-darken-3 lighten-3">I studied in the NCKU in Tainan, Taiwan. Which is a beautiful place to be my alma mater.</h5>
-        </div>
-    </div>
-<div class="parallax-container">
-    <div class="parallax"><img src="image/profile/gamer.jpg"></div>
-</div>
-    <div class="section light-grey">
-        <div class="row container">
-            <h2 class="header"><i class="fa fa-caret-up" aria-hidden="true"></i> Passion for the game</h2>
-            <h5 class="grey-text text-darken-3 lighten-3">The reason why we choose Computer Science as major, is the "Game".</h5>
-            <h5 class="grey-text text-darken-3 lighten-3">Horror, Sci-Fi, RPG, ...etc, any categories would make me fascinated.</h5>
-        </div>
-    </div>
-</body>
-<!-- Footer -->
-<footer class="page-footer green">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Cheer! You also can email me if you have any idea on my work!</h5>
-                <p class="grey-text text-lighten-4">My Email: kevinbird61@gmail.com</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Contact me</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://github.com/kevinbird61"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github </a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/kevinbird61"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> Facebook </a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCr0ZVY1L7SXZcF34smVJQ-g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i> Youtube </a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2017 Copyright by Kevin CYU
-            <a class="grey-text text-lighten-4 right" href="#!">More about me</a>
-        </div>
-    </div>
-</footer>
+	<head>
+		<title>Snapshot by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div class="page-wrap">
 
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" class="active"><span class="icon fa-home"></span></a></li>
+						<li><a href="gallery.html"><span class="icon fa-camera-retro"></span></a></li>
+						<li><a href="generic.html"><span class="icon fa-file-text-o"></span></a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Banner -->
+						<section id="banner">
+							<div class="inner">
+								<h1>Hey, I'm Snapshot</h1>
+								<p>A fully responsive gallery template by <a href="https://templated.co">TEMPLATED</a></p>
+								<ul class="actions">
+									<li><a href="#galleries" class="button alt scrolly big">Continue</a></li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Photo Galleries -->
+								<div class="gallery">
+									<header class="special">
+										<h2>What's New</h2>
+									</header>
+									<div class="content">
+										<div class="media">
+											<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/09.jpg"><img src="images/thumbs/09.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="" title="This right here is a caption." /></a>
+										</div>
+									</div>
+									<footer>
+										<a href="gallery.html" class="button big">Full Gallery</a>
+									</footer>
+								</div>
+						</section>
+
+					<!-- Contact -->
+						<section id="contact">
+							<!-- Social -->
+								<div class="social column">
+									<h3>About Me</h3>
+									<p>Mus sed interdum nunc dictum rutrum scelerisque erat a parturient condimentum potenti dapibus vestibulum condimentum per tristique porta. Torquent a ut consectetur a vel ullamcorper a commodo a mattis ipsum class quam sed eros vestibulum quisque a eu nulla scelerisque a elementum vestibulum.</p>
+									<p>Aliquet dolor ultricies sem rhoncus dolor ullamcorper pharetra dis condimentum ullamcorper rutrum vehicula id nisi vel aptent orci litora hendrerit penatibus erat ad sit. In a semper velit eleifend a viverra adipiscing a phasellus urna praesent parturient integer ultrices montes parturient suscipit posuere quis aenean. Parturient euismod ultricies commodo arcu elementum suspendisse id dictumst at ut vestibulum conubia quisque a himenaeos dictum proin dis purus integer mollis parturient eros scelerisque dis libero parturient magnis.</p>
+									<h3>Follow Me</h3>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</div>
+
+							<!-- Form -->
+								<div class="column">
+									<h3>Get in Touch</h3>
+									<form action="#" method="post">
+										<div class="field half first">
+											<label for="name">Name</label>
+											<input name="name" id="name" type="text" placeholder="Name">
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input name="email" id="email" type="email" placeholder="Email">
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+										</div>
+										<ul class="actions">
+											<li><input value="Send Message" class="button" type="submit"></li>
+										</ul>
+									</form>
+								</div>
+
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="copyright">
+								&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
+							</div>
+						</footer>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
